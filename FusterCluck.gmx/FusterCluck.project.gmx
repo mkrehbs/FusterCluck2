@@ -40,12 +40,19 @@
     <object>objects\obj_Door</object>
     <object>objects\obj_SecurityCam</object>
     <object>objects\obj_Text</object>
-    <object>objects\obj_Projectile</object>
     <object>objects\obj_LOS</object>
-    <object>objects\obj_Pizza</object>
-    <object>objects\obj_Dart</object>
-    <object>objects\obj_BowlingBall</object>
     <object>objects\obj_Barrier</object>
+    <objects name="Projectiles">
+      <object>objects\obj_Projectile</object>
+      <objects name="Shot">
+        <object>objects\obj_Dart</object>
+        <object>objects\obj_Pizza</object>
+        <object>objects\obj_BowlingBall</object>
+      </objects>
+      <objects name="Thrown">
+        <object>objects\obj_Anchor</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
