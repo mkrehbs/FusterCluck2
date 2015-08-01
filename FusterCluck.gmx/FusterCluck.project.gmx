@@ -25,6 +25,12 @@
     <sprite>sprites\spr_HaybaleTall</sprite>
     <sprite>sprites\spr_HaybaleLong</sprite>
     <sprite>sprites\spr_tallBarrier</sprite>
+    <sprites name="Enemy">
+      <sprite>sprites\spr_EnemyU</sprite>
+      <sprite>sprites\spr_EnemyR</sprite>
+      <sprite>sprites\spr_EnemyD</sprite>
+      <sprite>sprites\spr_EnemyL</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_Grass</background>
@@ -77,8 +83,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Colton</room>
     <room>rooms\rm_LevelOne</room>
+    <room>rooms\Colton</room>
     <room>rooms\rm_Init</room>
   </rooms>
   <help>
