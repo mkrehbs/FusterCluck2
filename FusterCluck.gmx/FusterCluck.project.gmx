@@ -6,20 +6,25 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_Player</sprite>
+    <sprites name="Player">
+      <sprite>sprites\spr_Player</sprite>
+      <sprite>sprites\spr_PlayerW</sprite>
+      <sprite>sprites\spr_PlayerA</sprite>
+      <sprite>sprites\spr_PlayerS</sprite>
+      <sprite>sprites\spr_PlayerWA</sprite>
+      <sprite>sprites\spr_PlayerWD</sprite>
+      <sprite>sprites\spr_PlayerD</sprite>
+      <sprite>sprites\spr_PlayerSA</sprite>
+      <sprite>sprites\spr_PlayerSD</sprite>
+    </sprites>
     <sprite>sprites\spr_Gun</sprite>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Barrier</sprite>
     <sprite>sprites\spr_LOS</sprite>
-    <sprite>sprites\spr_PlayerW</sprite>
-    <sprite>sprites\spr_PlayerA</sprite>
-    <sprite>sprites\spr_PlayerS</sprite>
-    <sprite>sprites\spr_PlayerD</sprite>
     <sprite>sprites\spr_Grass</sprite>
     <sprite>sprites\spr_HaybaleTall</sprite>
     <sprite>sprites\spr_HaybaleLong</sprite>
     <sprite>sprites\spr_tallBarrier</sprite>
-    <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_Grass</background>

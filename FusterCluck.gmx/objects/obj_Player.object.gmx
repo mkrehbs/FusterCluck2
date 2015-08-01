@@ -158,23 +158,64 @@ slide = false;
 //alarm 1 being above 1 pretty much means "slide = true"
 if (slide == false) {
 
-    if (keyboard_check(ord('W'))) {
+    if (keyboard_check(ord('W')))  {
         vspeed -= speedinc;
+        if sprite_index != spr_PlayerW 
+        {
+        sprite_index = spr_PlayerW;
+        }
         facing = 'W';
     }
     if (keyboard_check(ord('A'))) {
         hspeed -= speedinc;
+        if sprite_index != spr_PlayerA 
+        {
+        sprite_index = spr_PlayerA;
+        }
         facing = 'A';
 }
     if (keyboard_check(ord('S'))) {
         vspeed += speedinc;
+        if sprite_index != spr_PlayerS 
+        {
+        sprite_index = spr_PlayerS;
+        }
         facing = 'S';
         
     }
     if (keyboard_check(ord('D'))) {
         hspeed += speedinc;
+        if sprite_index != spr_PlayerD 
+        {
+        sprite_index = spr_PlayerD;
+        }
         facing = 'D';
         }
+        
+    if (keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('A')))
+    {
+        if (sprite_index != spr_PlayerWA)
+            sprite_index = spr_PlayerWA;
+    }
+    
+    if (keyboard_check(ord('W')) &amp;&amp; keyboard_check(ord('D')))
+    {
+        if (sprite_index != spr_PlayerWD)
+            sprite_index = spr_PlayerWD;
+    }
+       
+    if (keyboard_check(ord('S')) &amp;&amp; keyboard_check(ord('A')))
+    {
+        if (sprite_index != spr_PlayerWD)
+            sprite_index = spr_PlayerSA;
+    }
+       
+    if (keyboard_check(ord('S')) &amp;&amp; keyboard_check(ord('D')))
+    {
+        if (sprite_index != spr_PlayerSD)
+            sprite_index = spr_PlayerSD;
+    }
+       
         
     if(alarm[1] &lt; 1){if (keyboard_check(vk_space)){slide = true; alarm[0] = 10;}}
 }
@@ -194,9 +235,15 @@ if(mouse_check_button(mb_left)){with(instance_create(x,y,obj_Projectile)){}}
 
 image_speed = speed*0.1;
 
+
 if (facing == 'N') {
+    if sprite_index != spr_PlayerS
+    {
     sprite_index = spr_PlayerS;
     }
+}
+    
+/*
 if (facing == 'W') {
     sprite_index = spr_PlayerW;
     }
@@ -209,7 +256,7 @@ if (facing == 'S') {
 if (facing == 'D') {
     sprite_index = spr_PlayerD;
     }
-
+*/
 </string>
           </argument>
         </arguments>
