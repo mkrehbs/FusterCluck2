@@ -138,7 +138,7 @@ if (mouse_check_button(mb_left)) {
     if(canthrow == true){
 if (mouse_check_button(mb_right)) {
         with(instance_create(x + lengthdir_x(5,image_angle), y + lengthdir_y(5,image_angle), scr_WhatThrow(throwprojectile))) {
-            motion_add(point_direction(x, y, mouse_x+(random_range(-5,5)), mouse_y+random_range(-5,5)),(scr_WhatThrowSpeed(throwprojectile)));
+            motion_add(point_direction(x, y, mouse_x+(random_range(-5,5)), mouse_y+random_range(-5,5)),Control.throwspeed[throwprojectile]);
             //if(instance_exists(Player)){Player.shake+=random(argument2);}
             
         }

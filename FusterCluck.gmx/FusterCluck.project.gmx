@@ -33,7 +33,6 @@
     <script>scripts\scr_Set.gml</script>
     <script>scripts\scr_WhatProj.gml</script>
     <script>scripts\scr_WhatThrow.gml</script>
-    <script>scripts\scr_WhatThrowSpeed.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Template</object>
