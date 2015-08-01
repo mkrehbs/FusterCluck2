@@ -153,6 +153,7 @@ slide = false;
           <argument>
             <kind>1</kind>
             <string>///Colton
+show_debug_message(speed);
 //alarm 1 being above 1 pretty much means "slide = true"
 if (slide == false) {
 
@@ -190,7 +191,7 @@ if(mouse_check_button(mb_left)){with(instance_create(x,y,obj_Projectile)){}}
 
 //Animation
 
-image_speed = speed;
+image_speed = speed*0.1;
 
 if (facing == 'N') {
     sprite_index = spr_PlayerW;
