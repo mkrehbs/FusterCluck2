@@ -120,7 +120,7 @@ show_debug_message(patroly);
 
 mp_grid_add_instances(Grid, obj_Barrier, 1);
 mp_grid_path(Grid, Path, x, y, obj_Player.x, obj_Player.y, 1);
-mp_grid_path(Grid, Patrol, x, y, x, patroly+20, 1);
+mp_grid_path(Grid, Patrol, patrolx, patroly, x, patroly+20, 1);
 
 if (alert == 0) {
     path_start(Patrol,5,0,1);
