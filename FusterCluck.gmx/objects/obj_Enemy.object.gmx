@@ -59,6 +59,7 @@ dir = 0;
 
 Grid = mp_grid_create(0,0,room_width/32, room_height/32, 32, 32);
 Path = path_add();
+Patrol = path_add();
 
 
 
@@ -114,9 +115,10 @@ dir = direction;
 
 mp_grid_add_instances(Grid, obj_Barrier, 1);
 mp_grid_path(Grid, Path, x, y, obj_Player.x, obj_Player.y, 1);
+mp_grid_path(Grid, Patrol, x, y, x, y, 0);
 
 if (alert == 0) {
-    //path_start(Patrol,5,"",1);
+    path_start(Patrol,5,"",3);
     }
 
 if (alert == 1) {

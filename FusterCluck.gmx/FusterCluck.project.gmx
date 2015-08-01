@@ -24,7 +24,9 @@
   <backgrounds name="background">
     <background>background\tile_Grass</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\Pth_square</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_Dialogue.gml</script>
     <script>scripts\scr_Camera.gml</script>
