@@ -33,6 +33,7 @@ speedinc = 2;
 friction = 0.8;
 slide = false;
 instance_create(x,y,obj_Gun);
+haskey = false;
 </string>
           </argument>
         </arguments>
