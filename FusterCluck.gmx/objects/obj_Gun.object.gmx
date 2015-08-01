@@ -103,7 +103,6 @@ if(canshoot == true){
 
 if(mouse_check_button(mb_left)){
 
-
 with(instance_create(x,y,projectile)){
 motion_add(point_direction(x,y,mouse_x,mouse_y),10);
 }
