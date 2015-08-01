@@ -99,19 +99,16 @@ canshoot = true;
 x = obj_Player.x;
 y = obj_Player.y;
 
-
 if(canshoot == true){
-
-if(mouse_check_button(mb_left)){
-
-with(instance_create(x,y,scr_WhatProj(projectile))){
-    motion_add(point_direction(x,y,mouse_x,mouse_y), 10)
-}
-canshoot = false;
-alarm[0] = 5;
-}
-
-}
+if (mouse_check_button(mb_left)) {
+        with(instance_create(x + lengthdir_x(5,image_angle), y + lengthdir_y(5,image_angle), scr_WhatProj(projectile))) {
+            motion_add(point_direction(x, y, mouse_x+(random_range(-5,5)), mouse_y+random_range(-5,5)),(10));
+            //if(instance_exists(Player)){Player.shake+=random(argument2);}
+            
+        }
+        canshoot = false;
+        alarm[0] = 5;
+    }}
 </string>
           </argument>
         </arguments>

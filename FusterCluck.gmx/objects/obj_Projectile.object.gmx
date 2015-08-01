@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Colton
 var projspeed, projdamage, projfirerate
+speed = 10;
 </string>
           </argument>
         </arguments>

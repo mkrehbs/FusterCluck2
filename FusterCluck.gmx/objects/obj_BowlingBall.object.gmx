@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>projspeed = 10;
-speed += 10;
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
