@@ -52,7 +52,9 @@ inc = 1.05;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(image_xscale &gt; 2){goingup = false;}
+            <string>speed = 20;
+
+if(image_xscale &gt; 2){goingup = false;}
 
 if(goingup = true){image_xscale*=inc; image_yscale*=inc;}
 if(goingup = false){if(image_xscale &gt; 1){image_xscale/=inc; image_yscale/=inc;}}

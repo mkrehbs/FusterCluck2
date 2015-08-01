@@ -33,7 +33,6 @@
     <script>scripts\scr_Set.gml</script>
     <script>scripts\scr_WhatProj.gml</script>
     <script>scripts\scr_WhatThrow.gml</script>
-    <script>scripts\scr_WhatThrowSpeed.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Template</object>
@@ -48,7 +47,9 @@
     <object>objects\obj_Door</object>
     <object>objects\obj_SecurityCam</object>
     <object>objects\obj_Text</object>
+    <object>objects\obj_LaserSensor</object>
     <object>objects\obj_LOS</object>
+    <object>objects\obj_tallBarrier</object>
     <objects name="Projectiles">
       <object>objects\obj_Projectile</object>
       <objects name="Shot">
@@ -66,7 +67,6 @@
       <object>objects\obj_Barrier</object>
       <object>objects\obj_tallBale</object>
       <object>objects\obj_longBale</object>
-      <object>objects\obj_tallBarrier</object>
     </objects>
   </objects>
   <rooms name="rooms">
