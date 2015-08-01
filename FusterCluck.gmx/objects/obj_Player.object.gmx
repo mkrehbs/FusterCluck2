@@ -180,6 +180,8 @@ if(keyboard_check(vk_shift) &amp;&amp; slide = false){maxspeed = 6.5;}
 if (speed &gt; maxspeed) {
     speed = maxspeed;
 }
+
+if(mouse_check_button(mb_left)){with(instance_create(x,y,obj_Projectile)){}}
 </string>
           </argument>
         </arguments>
