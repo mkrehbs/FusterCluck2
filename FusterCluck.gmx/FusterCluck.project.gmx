@@ -10,6 +10,7 @@
     <sprite>sprites\spr_Gun</sprite>
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Barrier</sprite>
+    <sprite>sprites\spr_LOS</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
