@@ -145,6 +145,8 @@ obj_Player.image_alpha *=.95;
             <kind>1</kind>
             <string>transition = true;
 alarm[0] = 15;
+
+with(all){if(object_index != "obj_Player" || object_index != Control || object_index != obj_Hole){instance_destroy();}}
 </string>
           </argument>
         </arguments>
