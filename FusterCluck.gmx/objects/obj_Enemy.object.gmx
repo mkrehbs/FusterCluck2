@@ -49,6 +49,8 @@
             <string>///Matt
 HP = 2;
 
+dir = 0;
+
 image_angle = direction;
 
 //instance_create(
@@ -104,9 +106,13 @@ Path = path_add();
             <kind>1</kind>
             <string>///Matt
 
+dir = direction;
+
 mp_grid_add_instances(Grid, obj_Barrier, 1);
 mp_grid_path(Grid, Path, x, y, obj_Player.x, obj_Player.y, 1);
 path_start(Path,2,"",1);
+
+
 </string>
           </argument>
         </arguments>
