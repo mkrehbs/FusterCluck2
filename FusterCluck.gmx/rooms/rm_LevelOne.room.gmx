@@ -53,7 +53,6 @@
   <instances>
     <instance objName="Control" x="32" y="0" name="inst_57E78FD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Text" x="0" y="0" name="inst_069FA687" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Barrier" x="480" y="64" name="inst_7304A8BF" locked="0" code="" scaleX="0.100000001490116" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_longBale" x="928" y="64" name="inst_4D8E08C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_longBale" x="928" y="96" name="inst_53F95ECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_longBale" x="928" y="128" name="inst_34F3A413" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -128,30 +127,8 @@
     <instance objName="obj_longBale" x="608" y="544" name="inst_3AB8F1B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_longBale" x="640" y="544" name="inst_7564C159" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_longBale" x="672" y="544" name="inst_52B3E913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="512" name="inst_BC50F098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="480" name="inst_2A158C62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="448" name="inst_8986D81B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="416" name="inst_750437C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="384" name="inst_84EF23F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="352" name="inst_9F20957F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="320" name="inst_0FEC8798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="288" name="inst_B97691CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="256" name="inst_9B1944D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="224" name="inst_EF20DB77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="352" y="192" name="inst_CA4F91A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="352" name="inst_CF62CDB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="320" name="inst_BB923C95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="288" name="inst_2AB3EBAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="256" name="inst_3F8CE7A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="224" name="inst_8BA3816E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="192" name="inst_60F7AC22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="160" name="inst_9EBD8FFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="128" name="inst_38F0C968" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="96" name="inst_9A22DC49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="64" name="inst_0F8997C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_longBale" x="544" y="32" name="inst_CCEAE7B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy" x="608" y="160" name="inst_80ACA24C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="608" y="416" name="inst_A946B04D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy" x="448" y="96" name="inst_3E844792" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="608" y="160" name="inst_ED5187A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
