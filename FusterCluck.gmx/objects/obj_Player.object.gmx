@@ -54,6 +54,8 @@ instance_create(x,y,obj_Gun);
           <argument>
             <kind>1</kind>
             <string>///Matt
+
+facing = 'N';
 </string>
           </argument>
         </arguments>
@@ -156,17 +158,20 @@ if (slide == false) {
 
     if (keyboard_check(ord('W'))) {
         vspeed -= speedinc;
-        
+        facing = 'W';
     }
     if (keyboard_check(ord('A'))) {
         hspeed -= speedinc;
+        facing = 'A';
 }
     if (keyboard_check(ord('S'))) {
         vspeed += speedinc;
+        facing = 'S';
         
     }
     if (keyboard_check(ord('D'))) {
         hspeed += speedinc;
+        facing = 'D';
         }
         
     if(alarm[1] &lt; 1){if (keyboard_check(vk_space)){slide = true; alarm[0] = 10;}}
@@ -182,6 +187,27 @@ if (speed &gt; maxspeed) {
 }
 
 if(mouse_check_button(mb_left)){with(instance_create(x,y,obj_Projectile)){}}
+
+//Animation
+
+image_speed = speed;
+
+if (facing == 'N') {
+    sprite_index = spr_PlayerW;
+    }
+if (facing == 'W') {
+    sprite_index = spr_PlayerW;
+    }
+if (facing == 'A') {
+    sprite_index = spr_PlayerA;
+    }
+if (facing == 'S') {
+    sprite_index = spr_PlayerS;
+    }
+if (facing == 'D') {
+    sprite_index = spr_PlayerD;
+    }
+
 </string>
           </argument>
         </arguments>

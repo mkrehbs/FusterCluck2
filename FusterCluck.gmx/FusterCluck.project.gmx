@@ -11,6 +11,10 @@
     <sprite>sprites\spr_Enemy</sprite>
     <sprite>sprites\spr_Barrier</sprite>
     <sprite>sprites\spr_LOS</sprite>
+    <sprite>sprites\spr_PlayerW</sprite>
+    <sprite>sprites\spr_PlayerA</sprite>
+    <sprite>sprites\spr_PlayerS</sprite>
+    <sprite>sprites\spr_PlayerD</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
