@@ -116,7 +116,7 @@ mp_grid_add_instances(Grid, obj_Barrier, 1);
 mp_grid_path(Grid, Path, x, y, obj_Player.x, obj_Player.y, 1);
 
 if (alert == 0) {
-    path_start(Patrol,5,"",1);
+    //path_start(Patrol,5,"",1);
     }
 
 if (alert == 1) {
