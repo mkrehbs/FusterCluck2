@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>friction = 0.75;
+            <string>friction = 0.1;
 
 goingup = true;
 
-inc = 1.2
+inc = 1.05;
 </string>
           </argument>
         </arguments>
@@ -56,7 +56,7 @@ inc = 1.2
 
 if(goingup = true){image_xscale*=inc; image_yscale*=inc;}
 if(goingup = false){if(image_xscale &gt; 1){image_xscale/=inc; image_yscale/=inc;}}
-
+if(image_xscale &lt;= 1){friction = 1;}
 </string>
           </argument>
         </arguments>

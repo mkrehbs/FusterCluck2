@@ -29,6 +29,7 @@
     <script>scripts\scr_Set.gml</script>
     <script>scripts\scr_WhatProj.gml</script>
     <script>scripts\scr_WhatThrow.gml</script>
+    <script>scripts\scr_WhatThrowSpeed.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Template</object>
@@ -54,6 +55,8 @@
       </objects>
       <objects name="Thrown">
         <object>objects\obj_Anchor</object>
+        <object>objects\obj_Slipper</object>
+        <object>objects\obj_Brick</object>
       </objects>
     </objects>
   </objects>
