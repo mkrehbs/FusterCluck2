@@ -36,6 +36,7 @@
     <object>objects\obj_Projectile</object>
     <object>objects\obj_Pizza</object>
     <object>objects\obj_Dart</object>
+    <object>objects\obj_LOS</object>
     <object>objects\obj_BowlingBall</object>
     <object>objects\obj_Barrier</object>
   </objects>
