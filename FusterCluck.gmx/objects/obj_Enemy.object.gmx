@@ -51,10 +51,11 @@ HP = 2;
 
 image_angle = direction;
 
-instance_create(
+//instance_create(
 
 Grid = mp_grid_create(0,0,room_width/32, room_height/32, 32, 32);
 Path = path_add();
+
 //mp_grid_add_instances(Grid, obj_Barrier, 1);
 //mp_grid_path(Grid, Path, x, y, obj_Player.x, obj_Player.y, 1);
 //path_start(Path,2,"",1);
