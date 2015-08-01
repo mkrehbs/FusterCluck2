@@ -58,7 +58,7 @@ totalLines=array_length_1d(dialogue);
             <kind>1</kind>
             <string>///Next Line
 
-show_debug_message(totalLines);
+/*show_debug_message(totalLines);
 show_debug_message(line);
 
 if (line&lt;totalLines){
@@ -68,7 +68,7 @@ if (line&lt;totalLines){
         else {
             draw=false;
             free=true;
-            }
+            }*/
 </string>
           </argument>
         </arguments>
@@ -107,6 +107,42 @@ if (line&lt;totalLines){
     if (t&lt;string_length(dialogue[line]))
         t+=1;
     }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="18">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Next Line
+
+show_debug_message(totalLines);
+show_debug_message(line);
+
+if (line&lt;totalLines-1){
+            line+=1;
+            t=0;
+        }
+        else {
+            draw=false;
+            free=true;
+            //line = 0;
+            }
 </string>
           </argument>
         </arguments>
