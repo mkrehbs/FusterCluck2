@@ -9,6 +9,7 @@
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Gun</sprite>
     <sprite>sprites\spr_Enemy</sprite>
+    <sprite>sprites\spr_Barrier</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -33,6 +34,7 @@
     <object>objects\obj_SecurityCam</object>
     <object>objects\obj_Text</object>
     <object>objects\obj_Projectile</object>
+    <object>objects\obj_Barrier</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_LevelOne</room>
