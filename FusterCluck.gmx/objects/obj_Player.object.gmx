@@ -194,7 +194,7 @@ if(mouse_check_button(mb_left)){with(instance_create(x,y,obj_Projectile)){}}
 image_speed = speed*0.1;
 
 if (facing == 'N') {
-    sprite_index = spr_PlayerW;
+    sprite_index = spr_PlayerS;
     }
 if (facing == 'W') {
     sprite_index = spr_PlayerW;

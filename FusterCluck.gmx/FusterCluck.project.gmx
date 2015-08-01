@@ -15,8 +15,11 @@
     <sprite>sprites\spr_PlayerA</sprite>
     <sprite>sprites\spr_PlayerS</sprite>
     <sprite>sprites\spr_PlayerD</sprite>
+    <sprite>sprites\spr_Grass</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\tile_Grass</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_Dialogue.gml</script>
