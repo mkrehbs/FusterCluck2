@@ -154,7 +154,7 @@ slide = false;
           <argument>
             <kind>1</kind>
             <string>///Colton
-show_debug_message(speed);
+//show_debug_message(haskey);
 //alarm 1 being above 1 pretty much means "slide = true"
 if (slide == false) {
 

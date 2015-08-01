@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>line = true;
 alarm[0] = 60;
-laserdist = 500; 
+maths = collision_line(x,y,x+1000,y,obj_Barrier,1,0).x;
+laserdist = maths-x;
 </string>
           </argument>
         </arguments>
@@ -74,7 +75,7 @@ alarm[0] = 60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(line){if(collision_line(x,y,x+laserdist,y,obj_Player,0,0)){}}
+            <string>if(line){if(collision_line(x,y,x+laserdist,y,obj_Player,0,0)){show_message("BITCH");game_end();}}
 </string>
           </argument>
         </arguments>
