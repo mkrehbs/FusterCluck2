@@ -16,6 +16,10 @@
     <sprite>sprites\spr_PlayerS</sprite>
     <sprite>sprites\spr_PlayerD</sprite>
     <sprite>sprites\spr_Grass</sprite>
+    <sprite>sprites\spr_HaybaleTall</sprite>
+    <sprite>sprites\spr_HaybaleLong</sprite>
+    <sprite>sprites\spr_tallBarrier</sprite>
+    <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_Grass</background>
@@ -45,7 +49,6 @@
     <object>objects\obj_SecurityCam</object>
     <object>objects\obj_Text</object>
     <object>objects\obj_LOS</object>
-    <object>objects\obj_Barrier</object>
     <objects name="Projectiles">
       <object>objects\obj_Projectile</object>
       <objects name="Shot">
@@ -58,6 +61,12 @@
         <object>objects\obj_Slipper</object>
         <object>objects\obj_Brick</object>
       </objects>
+    </objects>
+    <objects name="Barriers">
+      <object>objects\obj_Barrier</object>
+      <object>objects\obj_tallBale</object>
+      <object>objects\obj_longBale</object>
+      <object>objects\obj_tallBarrier</object>
     </objects>
   </objects>
   <rooms name="rooms">
