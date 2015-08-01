@@ -29,6 +29,7 @@
 startingangle = image_angle;
 finalangle = startingangle+90;
 goingleft = true;
+with(instance_create(x+16,y,obj_LOS)){image_angle = self.image_angle}
 </string>
           </argument>
         </arguments>

@@ -25,6 +25,7 @@
     <sprite>sprites\spr_HaybaleTall</sprite>
     <sprite>sprites\spr_HaybaleLong</sprite>
     <sprite>sprites\spr_tallBarrier</sprite>
+    <sprite>sprites\spr_Hole</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_Grass</background>
